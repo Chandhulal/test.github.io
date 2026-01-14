@@ -3,12 +3,12 @@ import React from 'react'
 const mainProducts = [
   {
     id: 1,
-    title: 'Premium Glassware',
+    title: 'Glassware',
     description: 'Complete collection of premium glassware including cocktail glasses, mocktail glasses, bar glasses, wine glasses, short glasses, beer glasses, champagne flutes, and all essential barware sets for your home bar or establishment.',
   },
   {
     id: 2,
-    title: 'Premium Bartending Tools',
+    title: 'Bartending Tools',
     description: 'Professional bartending tools and accessories including shakers, strainers, jiggers, mixing equipment, gloves, straws, dried garnishes, and all related items for the perfect bar setup.',
   },
 ]
@@ -38,7 +38,7 @@ function Products() {
             {mainProducts.map((product) => (
               <div
                 key={product.id}
-                className="group bg-white/80 backdrop-blur-sm rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-blue-300/60 hover:border-blue-400/80"
+                className="group bg-violet-100 backdrop-blur-sm rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-blue-300/60 hover:border-blue-400/80"
               >
                 <div className="p-8 md:p-10 text-center">
                   <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
